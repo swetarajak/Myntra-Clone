@@ -87,7 +87,7 @@
 }
 /* hero image */
 .imgcontainer img{
-    width: 127rem;
+    width: 100%;
     height: 35rem;
     padding: 50px;
 
