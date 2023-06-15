@@ -2,6 +2,7 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 /*whole Navbar*/
 .wrapper{
@@ -11,7 +12,7 @@
     box-shadow: 5px 5px 5px rgb(181, 178, 178);
 }
 /*Myntra logo*/
-img{
+.logo{
     width:50px;
     height:40px;
     margin-left: 50px;
@@ -83,4 +84,17 @@ img{
     font-size:12px;
     font-weight: 600;
 
+}
+/* hero image */
+.imgcontainer img{
+    width: 127rem;
+    height: 35rem;
+    padding: 50px;
+
+}
+/* omg deals */
+.omgdeals img{
+    width: 100%;
+    height: 25rem;
+    /* padding: 50px 10px; */
 }
