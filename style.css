@@ -4,99 +4,29 @@
     padding:0;
     box-sizing: border-box;
 }
-/*whole Navbar*/
-.wrapper{
-    display: flex;
-    margin-top:20px;
-    padding-bottom:25px;
-    box-shadow: 5px 5px 5px rgb(181, 178, 178);
+body{
+    background-image: linear-gradient(90deg, white, rgb(132, 207, 232));
 }
-/*Myntra logo*/
-.logo{
-    width:50px;
-    height:40px;
-    margin-left: 50px;
-    padding-right:60px;
-    padding-top: 10px;
-}
-/*Lists*/
-.lists li{
-    list-style-type: none;
-    display:inline;
-   padding-right:30px;
-   font-family: 'Poppins', sans-serif;
-   font-weight: bolder;
-   font-size: 15px;
 
-}
-.lists{
-    padding-top:15px;
-}
-/*search box - magnifying glass*/
-#glass{
-    color: rgb(159, 157, 157);
-    background: rgb(231, 231, 231);
-    border-top-left-radius: 5px ;
-    border-bottom-left-radius: 5px ;
-   padding-top: 15px;
-   padding-left:10px;
-   margin-left: 30px;
-}
-/*textbox*/
-#text{
-    width:32%;
-    background: rgb(231, 231, 231);
-    padding-left:10px;
-    border: rgb(231, 231, 231) ;
-    border-top-right-radius: 5px ;
-    border-bottom-right-radius: 5px ;
-    margin-right:25px;
-}
-#text:hover,#text::before,#text::after,#text:active{
-    border:1px 1px rgb(231, 231, 231) ;
-}
-#text:active{
-    border:1px 1px rgb(231, 231, 231) ;
-}
-/*fontawesome icons profile wishlist and bag*/
-.icons {
-    display: block;
-    right:0;
-    padding-top:10px;
-}
-#icon{
-    padding-left:25px;  
-    padding-right:15px;
-    font-size: 20px;
-}
-/*texts under icons*/
-.Itext{
-    display: inline;
-    padding-left:18px;
-    font-family: 'Poppins', sans-serif;
-    font-size:12px;
-    font-weight: 600;
-}
-.Itext1{
-    display: inline;
-    padding-left:22px;
-    font-family: 'Poppins', sans-serif;
-    font-size:12px;
-    font-weight: 600;
-
-}
 /* hero image */
+.imgcontainer{
+    background: rgb(252, 252, 252);
+    width: 100%;
+    height: 25rem;
+    margin-top:3rem;
+}
 .imgcontainer img{
     width: 100%;
     height: 25rem;
     padding-inline: 70px;
-    padding-top:40px;
-    padding-bottom:20px;
-
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 /* omg deals */
 .omgdeals img{
     width: 100%;
-    height: 18rem;
+    height: 16rem;
     /* padding: 50px 10px; */
 }
+
+  
