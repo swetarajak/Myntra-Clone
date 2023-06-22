@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&family=Playfair:wght@300&family=Poppins:wght@200;400&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 246, 248);
+}
+.wrapper2{
+    width:28%;
+    height:80vh;
+    background: white;
+    display: block;
+    margin-inline:auto;
+    margin-top : 30px;
+}
+img{
+    width:100%;
+    height:25%
+}
+#sign{
+    margin-inline: 2rem;
+    padding-top:30px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+#mobile{
+    margin-inline:2rem;
+    width:85%;
+    height:25px;
+    margin-bottom:10px;
+    padding-block:20px;
+    padding-left:5px;
+}
+#terms{
+    margin-inline: 2rem;
+    padding-block:10px;
+    font-weight: light;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+   
+}
+#btn{
+    margin-inline: 2rem;
+    width:85%;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(238, 51, 82) ;
+    border: none;
+    color:white;
+    font-weight: bold;
+    padding-block:10px;
+    font-size: 14px;
+    margin-top:10px;
+    margin-bottom:25px;
+    cursor: pointer;
+
+}
+#help{
+    margin-inline: 2rem;
+    padding-top:10px;
+    font-weight: light;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+
+}
